@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minor CCVT</title>
-    <h1>Hello World!</h1>
-</head>
-<body>
-    <py-script>
-        # OpenCV program to detect face in real time
+# OpenCV program to detect face in real time
 # import libraries of python OpenCV
 # where its functionality resides
 import cv2
@@ -69,8 +58,3 @@ cap.release()
 
 # De-allocate any associated memory usage
 cv2.destroyAllWindows()
-
-    </py-script>
-    
-</body>
-</html>
